@@ -12,17 +12,8 @@ export default function Home() {
       <Header />
       <main className="min-h-screen text-gray-800">
         <Hero />
-        <div className="flex justify-center w-full my-4 ">
-          <div className="w-6xl h-0.5 bg-black"></div>
-        </div>
         <TechStack />
-        <div className="flex justify-center w-full my-4 ">
-          <div className="w-6xl h-0.5 bg-black"></div>
-        </div>
         <Projects />
-        <div className="flex justify-center w-full my-4 ">
-          <div className="w-6xl h-0.5 bg-black"></div>
-        </div>
         <Contact />
       </main>
       <Footer />

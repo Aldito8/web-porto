@@ -16,8 +16,8 @@ const socialLinks = [
 
 export function Footer() {
     return (
-        <footer className="w-full border-t border-gray-200 py-8 text-center text-sm text-gray-600">
-            <p className="mb-4">
+        <footer className="w-full border-t border-gray-800 py-8 text-center text-sm text-gray-600 bg-slate-900">
+            <p className="mb-4 text-white">
                 © {new Date().getFullYear()} Coded with ❤️ by Aldito Sitompul
             </p>
             <div className="flex items-center justify-center gap-5">

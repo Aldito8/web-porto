@@ -8,7 +8,6 @@ import { TypeAnimation } from "react-type-animation";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
-import particlesOptions from "./particles";
 
 export function Hero() {
     const [init, setInit] = useState(false);
@@ -24,13 +23,8 @@ export function Hero() {
     return (
         <section
             id="home"
-            className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-slate-900 text-white"
+            className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-slate-900"
         >
-            {init && <Particles id="tsparticles" options={particlesOptions} />}
-            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-br from-slate-900 via-slate-900 to-blue-950/50 z-10"></div>
-            <div className="absolute -bottom-1/4 right-0 h-1/2 w-1/2 rounded-full bg-cyan-400/10 blur-3xl"></div>
-            <div className="absolute -top-1/4 left-0 h-1/2 w-1/2 rounded-full bg-blue-600/10 blur-3xl"></div>
-
             <div className="z-20 flex max-w-5xl flex-col items-center gap-12 p-4 text-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}

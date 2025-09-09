@@ -37,13 +37,13 @@ const TechnologySlider: React.FC<TechnologySliderProps> = ({ items }) => {
             >
                 {extendedItems.map((item, index) => (
                     <SwiperSlide key={index} className="!w-auto flex-shrink-0">
-                        <div className="mx-8 flex h-20 items-center justify-center">
+                        <div className="mx-8 flex h-20 items-center justify-center bg-white w-20 h-20 rounded-lg shadow-md group hover:scale-110 transition-all duration-500">
                             <Image
                                 src={item.icon}
                                 alt={item.nametech}
                                 width={55}
                                 height={55}
-                                className="max-h-[55px] object-contain"
+                                className="max-h-[55px] object-contain group-hover:scale-120 transition-all duration-300"
                                 title={item.nametech}
                             />
                         </div>
