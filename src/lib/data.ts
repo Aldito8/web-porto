@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     {
         title: "DoRa",
         description: "An intuitive to-do list application that helps users create, manage, and track daily tasks, work, or personal activities with ease.",
-        imageUrl: "/DoRa.png",
+        imageUrl: "/dora.png",
         tags: ["TypeScript", "Express.js", "React", "Prisma"],
         liveUrl: "#",
         sourceUrl: "#",
