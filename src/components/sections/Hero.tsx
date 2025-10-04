@@ -94,7 +94,7 @@ export function Hero() {
                     className="mt-8 flex gap-6"
                 >
                     <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/Aldito8"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-400 transition-colors hover:text-cyan-400"
@@ -102,7 +102,7 @@ export function Hero() {
                         <FiGithub size={28} />
                     </a>
                     <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://linkedin.com/in/aldito-dwi-putra-sitompul"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-slate-400 transition-colors hover:text-cyan-400"

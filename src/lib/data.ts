@@ -25,8 +25,8 @@ export const projectsData: Project[] = [
         description: "A social media application designed to connect you with the world. Post your daily status, interact with content, and follow other users.",
         imageUrl: "/circle.png",
         tags: ["TypeScript", "Express.js", "React", "PostgreSQL"],
-        liveUrl: "#",
-        sourceUrl: "#",
+        liveUrl: "https://mycircleapp.netlify.app/",
+        sourceUrl: "https://github.com/Aldito8/FE-Circle-App",
     },
     {
         title: "DoRa",
@@ -34,7 +34,7 @@ export const projectsData: Project[] = [
         imageUrl: "/dora.png",
         tags: ["TypeScript", "Express.js", "React", "Prisma"],
         liveUrl: "#",
-        sourceUrl: "#",
+        sourceUrl: "https://github.com/dora-taskify/",
     },
     {
         title: "Kepengen App",
@@ -42,14 +42,14 @@ export const projectsData: Project[] = [
         imageUrl: "/kepengen.png",
         tags: ["TypeScript", "NextJs", "Prisma"],
         liveUrl: "#",
-        sourceUrl: "#",
+        sourceUrl: "https://github.com/Aldito8/kepengen-app",
     },
     {
         title: "AIWanna",
         description: "This application is designed to help users discover and explore the best travel destinations based on their preferences. With a smart recommendation system.",
         imageUrl: "/aiwanna.png",
         tags: ["TypeScript", "NextJs", "Prisma"],
-        liveUrl: "#",
-        sourceUrl: "#",
+        liveUrl: "https://aiwanna.vercel.app",
+        sourceUrl: "https://github.com/Aldito8/aiwanna-holiday",
     },
 ];
